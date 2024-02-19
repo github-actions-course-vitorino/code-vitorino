@@ -21,7 +21,7 @@ jobs:
         needs: run-shell-commands
         steps:
             - name: echo a string
-              run: Write-Output "Windows String Novo - Var"
+              run: Write-Output "Windows String Novo - Var Novo"
             - name: Error Step
               run: doesnotexits
 
